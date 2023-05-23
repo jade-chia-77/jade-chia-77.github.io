@@ -17,4 +17,9 @@ p{ color:rgb(187, 184, 184);
   .myface {
    width: 50%; 
    justify-items: center;
+   z-index: 2;
+  }
+  .background {
+  width: 100%;
+  z-index: 1;
   }
