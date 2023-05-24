@@ -39,14 +39,14 @@ text-align:justify;
 
 .footer{
   overflow: hidden;
-  background-color: #9fa0a6fa;
+  background-color: #4b4c52fa;
   height: 30px;
   margin-top: auto;
 }
 
 .header {
   overflow: hidden;
-  background-color: #9fa0a6fa;
+  background-color: #4b4c52fa;
   padding: 10px 10px;
 }
 
@@ -84,13 +84,13 @@ text-align:justify;
   background-color: rgb(35, 36, 42);
   padding: 10px;
   align-self: center;
-  margin-left: 20%;
-  margin-right: 20%;
+  margin-left: 50%;
+  margin-right: 50%;
 }
 
 .list{
 color:rgb(254, 254, 255);
 font-family: Montserrat, Arial, Helvetica, sans-serif;
-font-size:xx-small;
+font-size:smaller;
 text-align:justify;
 }
