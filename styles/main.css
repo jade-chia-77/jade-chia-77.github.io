@@ -1,4 +1,4 @@
-body {background-color: gradient(45deg,rgb(49, 56, 99),rgb(45,45,45));
+body {background-color: linear-gradient(180deg,rgba(30, 40, 116, 0.952),rgba(158, 158, 158, 0.74));
 }
 
 h1 {color:rgb(253, 253, 253);
@@ -36,4 +36,23 @@ background-color: rgb(49, 56, 99);
   width: 50%; 
   border-radius: 40%;
   align-items: center;
+}
+
+.footer{
+  height: 50px;
+  margin-top: -50px;
+}
+
+.header{
+  height: 50px;
+  margin-bottom: -50px;
+}
+
+.content {
+  min-height: 100%;
+}
+
+.content-inside {
+  padding: 20px;
+  padding-bottom: 50px;
 }
