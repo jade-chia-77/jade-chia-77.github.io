@@ -1,4 +1,4 @@
-body {background-color: rgb(49, 56, 99)
+body {background-color: gradient(45deg,rgb(49, 56, 99),rgb(45,45,45));
 }
 
 h1 {color:rgb(253, 253, 253);
@@ -34,6 +34,6 @@ background-color: rgb(49, 56, 99);
   display: block;
   margin: 0%, auto;
   width: 50%; 
+  border-radius: 40%;
   align-items: center;
-  z-index: 2;
 }
