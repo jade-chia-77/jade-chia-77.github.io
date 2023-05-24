@@ -1,4 +1,4 @@
-body {background-color: linear-gradient(180deg,rgba(30, 40, 116, 0.952),rgba(158, 158, 158, 0.74));
+body {background-color: rgb(49, 56, 99);
 }
 
 h1 {color:rgb(253, 253, 253);
@@ -30,12 +30,12 @@ font-family: Montserrat, Arial, Helvetica, sans-serif;
 background-color: rgb(49, 56, 99);
 }
 
-.img{
+.image{
   display: block;
+  text-align: center;
   margin: 0%, auto;
-  width: 50%; 
-  border-radius: 40%;
-  align-items: center;
+  width: 20%; 
+  border-radius: 20%;
 }
 
 .footer{
@@ -43,16 +43,19 @@ background-color: rgb(49, 56, 99);
   margin-top: -50px;
 }
 
-.header{
-  height: 50px;
-  margin-bottom: -50px;
+.header {
+  overflow: hidden;
+  background-color: #0f0c0c;
+  padding: 20px 10px;
 }
 
-.content {
-  min-height: 100%;
-}
-
-.content-inside {
-  padding: 20px;
-  padding-bottom: 50px;
+.header a {
+  float: left;
+  color: black;
+  text-align: center;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 18px;
+  line-height: 25px;
+  border-radius: 4px;
 }
