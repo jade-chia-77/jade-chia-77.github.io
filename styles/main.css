@@ -77,3 +77,10 @@ text-align:justify;
       rgba(0, 0, 0, 0)
     ) 1 100%;
 }
+
+.table {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  background-color: rgb(35, 36, 42);
+  padding: 10px;
+}
