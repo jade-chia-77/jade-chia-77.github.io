@@ -4,18 +4,21 @@ body {background-color: rgb(49, 56, 99);
 h1 {color:rgb(253, 253, 253);
 font-family: Montserrat, Arial, Helvetica, sans-serif;
 font-size: x-large;
-font-weight:bold
+font-weight:bold;
+text-align: center;
 }
 
 h3 {color:rgb(253, 253, 253);
   font-family: Montserrat, Arial, Helvetica, sans-serif;
   font-size:large;
   font-weight:bold;
+  text-align: center;
 }
 
 h4 {color:rgb(253, 253, 253);
   font-family: Montserrat, Arial, Helvetica, sans-serif;
   font-size: medium;
+  text-align: center;
 }
 
 p {
@@ -31,27 +34,29 @@ background-color: rgb(49, 56, 99);
 }
 
 .image{
-  display: block;
   text-align: center;
-  margin: 0%, auto;
-  width: 20%; 
+  display: block;
+  width: 20%;
+  height: 20%;
   border-radius: 20%;
 }
 
 .footer{
+  overflow: hidden;
+  background-color: #9fa0a6fa;
   height: 50px;
   margin-top: -50px;
 }
 
 .header {
   overflow: hidden;
-  background-color: #0f0c0c;
-  padding: 20px 10px;
+  background-color: #9fa0a6fa;
+  padding: 10px 10px;
 }
 
 .header a {
   float: left;
-  color: black;
+  color: rgb(33, 38, 68);
   text-align: center;
   padding: 12px;
   text-decoration: none;
