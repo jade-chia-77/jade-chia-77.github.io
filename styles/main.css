@@ -1,6 +1,4 @@
-body {background-image: url(pexels-philippe-donn-1169754.jpg);
-  opacity: 0.05;
-  z-index: 1;
+body {background-color: rgb(49, 56, 99)
 }
 
 h1 {color:rgb(253, 253, 253);
@@ -21,7 +19,7 @@ h4 {color:rgb(253, 253, 253);
 
 p {
 color:rgb(254, 254, 255);
-font-family: Arial, Helvetica, sans-serif;
+font-family: Montserrat, Arial, Helvetica, sans-serif;
 font-size: smaller;
 text-align:justify;
 }
