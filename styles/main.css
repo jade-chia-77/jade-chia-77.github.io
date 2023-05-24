@@ -64,7 +64,7 @@ text-align:justify;
 }
 
 .box {
-  max-width:33%;
+  max-width:250px;
   padding: 1rem;
   color: white;
   display:inline-block;
