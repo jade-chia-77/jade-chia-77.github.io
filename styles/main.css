@@ -87,3 +87,9 @@ text-align:justify;
   margin-left: 5%;
   margin-right: 5%;
 }
+
+ul {
+color:rgb(254, 254, 255);
+font-family: Montserrat, Arial, Helvetica, sans-serif;
+font-size: smaller;
+}
