@@ -1,24 +1,29 @@
-body{
-  background-color: linear-gradient(45deg,rgba(25, 50, 113, 0.959));
+body {background-image: url("https://img.freepik.com/free-vector/futuristic-technological-wallpaper_79603-1093.jpg?w=1800&t=st=1684895315~exp=1684895915~hmac=5d464d25e3992461d58191ace1af4e03a754d3074f0e635b69cb4bbc83331c83");
+  opacity: 0.2;
 }
-h1 {color:rgb(9, 9, 9);
-  font-family: Arial, Helvetica, sans-serif;
+
+h1 {color:rgb(253, 253, 253);
+font-family: Arial, Helvetica, sans-serif;
 }
-h2 {color:rgb(255, 255, 255);
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: large;
+
+h3 {color:rgb(253, 253, 253);
+  font-family: Montserrat, Arial, Helvetica, sans-serif;
 }
-h3 {color:rgb(235, 231, 231);
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: medium;
-}
+
 p {
-  color:rgba(30, 24, 92, 0.791);
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: smaller;
-  text-align:justify;
+color:rgb(254, 254, 255);
+font-family: Arial, Helvetica, sans-serif;
+font-size: smaller;
+text-align:justify;
 }
-  .myface {
-   width: 50%; 
-   align-items: center;
-  }
+
+.toolbar-nav {
+font-family: Montserrat, Arial, Helvetica, sans-serif;
+background-color: rgb(49, 56, 99);
+}
+
+.myface {
+  width: 50%; 
+  align-items: center;
+  opacity: 0.2;
+}
