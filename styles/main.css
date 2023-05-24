@@ -1,4 +1,4 @@
-body {background-color: rgb(49, 56, 99);
+body {background-color: rgb(35, 36, 42);
 }
 
 h1 {color:rgb(253, 253, 253);
@@ -67,6 +67,7 @@ text-align:justify;
   max-width: 250px;
   padding: 1rem;
   color: white;
+  display:inline-block;
   border-width: 3px;
   border-style: solid;
   border-image: 
