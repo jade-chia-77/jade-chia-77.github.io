@@ -28,14 +28,9 @@ font-size: smaller;
 text-align:justify;
 }
 
-.toolbar-nav {
-font-family: Montserrat, Arial, Helvetica, sans-serif;
-background-color: rgb(49, 56, 99);
-}
-
 .image{
-  text-align: center;
   display: block;
+  margin: auto;
   width: 20%;
   height: 20%;
   border-radius: 20%;
@@ -63,4 +58,6 @@ background-color: rgb(49, 56, 99);
   font-size: 18px;
   line-height: 25px;
   border-radius: 4px;
+  margin:auto;
+  font-family: Arial, Helvetica, sans-serif;
 }
