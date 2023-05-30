@@ -1,64 +1,57 @@
-body {background-color: rgb(35, 36, 42);
+body {
+  background-color: rgb(35, 36, 42);
 }
 
-h1 {color:rgb(253, 253, 253);
-font-family: Montserrat, Arial, Helvetica, sans-serif;
-font-size: x-large;
-font-weight:bold;
-text-align: center;
-}
-
-h2 {color:rgb(253, 253, 253);
+h1, h2, h3, h4 {
+  color: rgb(253, 253, 253);
   font-family: Montserrat, Arial, Helvetica, sans-serif;
-  font-size:large;
-  font-weight:bold;
   text-align: center;
 }
 
-h3 {color:rgb(253, 253, 253);
+h1 {
+  font-size: 2rem; /* Adjust the font size as needed */
+  font-weight: bold;
+}
+
+h2, h3 {
+  font-size: 1.5rem; /* Adjust the font size as needed */
+  font-weight: bold;
+}
+
+h4 {
+  font-size: 1rem; /* Adjust the font size as needed */
+}
+
+p, ul {
+  color: rgb(254, 254, 255);
   font-family: Montserrat, Arial, Helvetica, sans-serif;
-  font-size:large;
-  font-weight:bold;
-  text-align: center;
+  text-align: justify;
 }
 
-h4 {color:rgb(253, 253, 253);
-  font-family: Montserrat, Arial, Helvetica, sans-serif;
-  font-size: medium;
-  text-align: center;
-}
-
-p {
-color:rgb(254, 254, 255);
-font-family: Montserrat, Arial, Helvetica, sans-serif;
-font-size: smaller;
-text-align:justify;
-}
-
-.image{
+.image {
   display: block;
-  margin: auto;
-  width: 20%;
-  height: 20%;
+  margin: 0 auto;
+  max-width: 100%; /* Adjust the maximum width as needed */
+  height: auto;
   border-radius: 20%;
-  border: 5px,white;
+  border: 5px solid white; /* Fix the border syntax */
 }
 
-.footer{
+.footer {
   overflow: hidden;
   background-color: #4b4c52fa;
-  height: 30px;
-  margin-top: auto;
+  padding: 10px;
 }
 
 .header {
   overflow: hidden;
   background-color: #4b4c52fa;
-  padding: 10px 10px;
+  padding: 10px;
+  text-align: center; /* Align the text center within the header */
 }
 
 .header a {
-  float: left;
+  display: inline-block; /* Display the links inline */
   color: rgb(255, 255, 255);
   text-align: center;
   padding: 12px;
@@ -66,37 +59,29 @@ text-align:justify;
   font-size: 18px;
   line-height: 25px;
   border-radius: 4px;
-  margin:auto;
-  font-family: Arial, Helvetica, sans-serif;  
+  margin: 0 auto; /* Center the links horizontally */
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .box {
-  max-width:250px;
+  max-width: 250px;
   padding: 1rem;
   color: white;
-  display:inline-block;
+  display: inline-block;
   border-width: 3%;
   border-style: solid;
-  border-image: 
-    linear-gradient(
-      to bottom, 
-      red, 
-      rgba(0, 0, 0, 0)
-    ) 1 100%;
+  border-image: linear-gradient(to bottom, red, rgba(0, 0, 0, 0)) 1 100%;
 }
 
 .table {
   display: grid;
-  grid-template-columns: auto auto auto;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); /* Adjust the grid columns as needed */
   background-color: rgb(35, 36, 42);
   padding: 4%;
   align-self: center;
-  margin-left: 5%;
-  margin-right: 5%;
+  margin: 0 5%; /* Combine margin-left and margin-right */
 }
 
 ul {
-color:rgb(254, 254, 255);
-font-family: Montserrat, Arial, Helvetica, sans-serif;
-font-size: smaller;
+  font-size: 0.8rem; /* Adjust the font size as needed */
 }
