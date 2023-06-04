@@ -1,0 +1,70 @@
+/* Reset default styles */
+body, h1, h2, h3, p {
+  margin: 0;
+  padding: 0;
+  font-style: Montserrat, Arial, Helvetica, sans-serif;
+  color:black;
+  background-image: url("path/to/your/image.jpg");
+  background-size: cover; /* optional: adjusts the image size to cover the entire background */
+  background-repeat: no-repeat; /* optional: prevents the image from repeating */
+
+}
+
+/* Blog container */
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Blog entry */
+.entry {
+  margin-bottom: 40px;
+}
+
+.entry-title {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.entry-content {
+  font-size: 16px;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+
+.entry-meta {
+  font-size: 14px;
+  color: #888;
+}
+
+.entry-meta span {
+  margin-right: 10px;
+}
+
+/* Separator */
+.separator {
+  height: 1px;
+  background-color: #ccc;
+  margin-bottom: 20px;
+}
+
+/* Media queries for responsiveness */
+@media (max-width: 600px) {
+  .container {
+    padding: 10px;
+  }
+
+  .entry-title {
+    font-size: 20px;
+  }
+
+  .entry-content {
+    font-size: 14px;
+  }
+
+  .entry-meta {
+    font-size: 12px;
+  }
+}
