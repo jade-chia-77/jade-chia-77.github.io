@@ -1,12 +1,12 @@
 body {
-  background-image: url("/Users/jadechia/Downloads/Galaxy.jpg");
+  background-image: url("https://c4.wallpaperflare.com/wallpaper/336/163/715/honeycombs-abstract-minimalism-simple-background-wallpaper-preview.jpg");
   background-size: cover; /* optional: adjusts the image size to cover the entire background */
   background-repeat: no-repeat; /* optional: prevents the image from repeating */
 }
 
 h1, h2, h3, h4 {
   color: rgb(253, 253, 253);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: Montserrat, Helvetica, sans-serif;
   text-align: center;
 }
 
@@ -26,7 +26,7 @@ h4 {
 
 p, ul {
   color: rgb(254, 254, 255);
-  font-family: Helvetica, sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
   text-align: justify;
   font-weight:500px;
 }
@@ -38,7 +38,6 @@ hr {
 
 .table {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); /* Adjust the grid columns as needed */
   padding: 1%;
   align-self: center;
   margin-left: 25%;
