@@ -1,7 +1,6 @@
 body {
-  background-image: url("https://c4.wallpaperflare.com/wallpaper/336/163/715/honeycombs-abstract-minimalism-simple-background-wallpaper-preview.jpg");
+  background-image: linear-gradient(rgba(45, 39, 39, 0.941),black);
   background-size: cover; /* optional: adjusts the image size to cover the entire background */
-  background-repeat: no-repeat; /* optional: prevents the image from repeating */
 }
 
 h1, h2, h3, h4 {
