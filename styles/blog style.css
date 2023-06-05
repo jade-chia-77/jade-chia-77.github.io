@@ -1,5 +1,34 @@
-/* Reset default styles */
-body, h1, h2, h3, p {
+body {
+  background-color: rgb(35, 36, 42);
+}
+
+h1, h2, h3, h4 {
+  color: rgb(253, 253, 253);
+  font-family: Montserrat, Arial, Helvetica, sans-serif;
+  text-align: center;
+}
+
+h1 {
+  font-size: 2rem; /* Adjust the font size as needed */
+  font-weight: bold;
+}
+
+h2, h3 {
+  font-size: 1.5rem; /* Adjust the font size as needed */
+  font-weight: bold;
+}
+
+h4 {
+  font-size: 1rem; /* Adjust the font size as needed */
+}
+
+p, ul {
+  color: rgb(254, 254, 255);
+  font-family: Montserrat, Arial, Helvetica, sans-serif;
+  text-align: justify;
+}
+
+/*body, h1, h2, h3, p {
   margin: 0;
   padding: 0;
   font-style: Montserrat, Arial, Helvetica, sans-serif;
@@ -7,8 +36,6 @@ body, h1, h2, h3, p {
   background-image: url("path/to/your/image.jpg");
   background-size: cover; /* optional: adjusts the image size to cover the entire background */
   background-repeat: no-repeat; /* optional: prevents the image from repeating */
-
-}
 
 /* Blog container */
 .container {
