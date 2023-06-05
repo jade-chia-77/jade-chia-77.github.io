@@ -39,10 +39,10 @@ hr {
 .table {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); /* Adjust the grid columns as needed */
-  padding: 4%;
+  padding: 1%;
   align-self: center;
-  margin-left: 10%;
-  margin-right: 10%; /* Combine margin-left and margin-right */
+  margin-left: 20%;
+  margin-right: 20%; /* Combine margin-left and margin-right */
 }
 
 .centered-image {
