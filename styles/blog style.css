@@ -38,13 +38,14 @@ body {
   color: ivory;
   width: auto;
   }
-  
-  .table {
-  display: grid;
-  padding: 1%;
-  align-self: center;
-  margin-left: 25%;
-  margin-right: 25%;
+
+  .box {
+    max-width: 50%;
+    padding: 1%;
+    display: inline-block;
+    border-width: 3%;
+    margin-left: 25%;
+    margin-right: 25%;
   }
   
   .centered-image {
@@ -70,117 +71,3 @@ body {
   overflow: hidden;
   background-color: #0d0d0dab;
   }
-
-/*body, h1, h2, h3, p {
-  margin: 0;
-  padding: 0;
-  font-style: Montserrat, Arial, Helvetica, sans-serif;
-  color:black;
-  background-image: url("path/to/your/image.jpg");
-  background-size: cover; /* optional: adjusts the image size to cover the entire background */
-  background-repeat: no-repeat; /* optional: prevents the image from repeating */
-
-/* Blog container */
-.container {
-  max-width: 800px;
-  margin: 0 auto;
-  padding: 20px;
-}
-
-/* Blog entry */
-.entry {
-  margin-bottom: 40px;
-}
-
-.entry-title {
-  font-size: 24px;
-  font-weight: bold;
-  margin-bottom: 10px;
-}
-
-.entry-content {
-  font-size: 16px;
-  line-height: 1.5;
-  margin-bottom: 20px;
-}
-
-.entry-meta {
-  font-size: 14px;
-  color: #888;
-}
-
-.entry-meta span {
-  margin-right: 10px;
-}
-
-/* Separator */
-.separator {
-  height: 1px;
-  background-color: #ccc;
-  margin-bottom: 20px;
-}
-
-/* Media queries for responsiveness */
-@media (max-width: 600px) {
-  .container {
-    padding: 10px;
-  }
-
-  .entry-title {
-    font-size: 20px;
-  }
-
-  .entry-content {
-    font-size: 14px;
-  }
-
-  .entry-meta {
-    font-size: 12px;
-  }
-}
-
-.sidepanel  {
-  width: 0;
-  position: fixed;
-  z-index: 1;
-  height: 250px;
-  top: 0;
-  left: 0;
-  background-color: #111;
-  overflow-x: hidden;
-  transition: 0.5s;
-  padding-top: 60px;
-}
-
-.sidepanel a {
-  padding: 8px 8px 8px 32px;
-  text-decoration: none;
-  font-size: 25px;
-  color: #818181;
-  display: block;
-  transition: 0.3s;
-}
-
-.sidepanel a:hover {
-  color: #f1f1f1;
-}
-
-.sidepanel .closebtn {
-  position: absolute;
-  top: 0;
-  right: 25px;
-  font-size: 36px;
-}
-
-.openbtn {
-  font-size: 20px;
-  cursor: pointer;
-  background-color: #111;
-  color: white;
-  padding: 10px 15px;
-  border: none;
-}
-
-.openbtn:hover {
-  background-color:#444;
-}
