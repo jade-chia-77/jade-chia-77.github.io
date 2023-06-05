@@ -1,56 +1,60 @@
 body {
-  background-image: linear-gradient(rgba(45, 39, 39, 0.941),black);
-  background-size: cover; /* optional: adjusts the image size to cover the entire background */
-}
-
-h1, h2, h3, h4 {
+  background-image: linear-gradient(rgba(45, 39, 39, 0.941), black);
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  }
+  
+  h1, h2, h3, h4 {
   color: rgb(253, 253, 253);
   font-family: Montserrat, Helvetica, sans-serif;
   text-align: center;
-}
-
-h1 {
-  font-size: 2rem; /* Adjust the font size as needed */
+  }
+  
+  h1 {
+  font-size: 2rem;
   font-weight: bold;
-}
-
-h2, h3 {
-  font-size: 1.5rem; /* Adjust the font size as needed */
+  }
+  
+  h2, h3 {
+  font-size: 1.5rem;
   font-weight: bold;
-}
-
-h4 {
-  font-size: 1rem; /* Adjust the font size as needed */
-}
-
-p, ul {
+  }
+  
+  h4 {
+  font-size: 1rem;
+  }
+  
+  p, ul {
   color: rgb(254, 254, 255);
   font-family: Arial, Helvetica, sans-serif;
-  text-align: justify;
-  font-weight:500px;
-}
-
-hr {
-  color:ivory;
+  text-align: center;
+  font-weight: 500px;
+  }
+  
+  hr {
+  color: ivory;
   width: auto;
-}
-
-.table {
+  }
+  
+  .table {
   display: grid;
   padding: 1%;
   align-self: center;
   margin-left: 25%;
-  margin-right: 25%; /* Combine margin-left and margin-right */
-}
-
-.centered-image {
+  margin-right: 25%;
+  }
+  
+  .centered-image {
   display: flex;
   justify-content: center;
-  align-items: auto;
-}
-
-.footer-input {
-  display: inline-block; /* Display the links inline */
+  align-items: center;
+  }
+  
+  .footer-input {
+  display: inline-block;
   color: rgb(255, 255, 255);
   text-align: center;
   padding: 12px;
@@ -58,14 +62,14 @@ hr {
   font-size: 18px;
   line-height: 25px;
   border-radius: 4px;
-  margin: 0 auto; /* Center the links horizontally */
+  margin: 0 auto;
   font-family: Arial, Helvetica, sans-serif;
-}
-
-footer {
+  }
+  
+  footer {
   overflow: hidden;
   background-color: #0d0d0dab;
-}
+  }
 
 /*body, h1, h2, h3, p {
   margin: 0;
