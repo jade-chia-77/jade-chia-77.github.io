@@ -15,5 +15,29 @@ let tastySchnacks = {
 }
 
 //ACCESSING OBJECT VALUES//
+//Using the key "tastySchnack-1" and corresponding value "Dua Lipa"
 console.log(tastySchnacks.Schnack-1)
 //This will return 'Dua Lipa' in the console in dev tools//
+
+
+//EXAMPLES OF FUNCTIONS IN JAVASCRIPT//
+//1. Function without parameters or return value//
+function greet() {
+  console.log("Hello!");
+}
+
+//2. Function with parameters//
+function add(a, b) {
+  return a + b;
+}
+
+//3. Function with a default parameter value//
+function multiply(a, b = 1) {
+  return a * b;
+}
+
+//4. Function expression (assigning a function to a variable)//
+const square = function(x) {
+  return x * x;
+};
+

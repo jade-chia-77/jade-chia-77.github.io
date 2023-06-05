@@ -26,9 +26,9 @@ h4 {
 
 p, ul {
   color: rgb(254, 254, 255);
-  font-family: Montserrat, Arial, Helvetica, sans-serif;
+  font-family: Helvetica, sans-serif;
   text-align: justify;
-  font-weight:bolder;
+  font-weight:500px;
 }
 
 hr {
@@ -49,6 +49,24 @@ hr {
   display: flex;
   justify-content: center;
   align-items: auto;
+}
+
+.footer-input {
+  display: inline-block; /* Display the links inline */
+  color: rgb(255, 255, 255);
+  text-align: center;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 18px;
+  line-height: 25px;
+  border-radius: 4px;
+  margin: 0 auto; /* Center the links horizontally */
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+footer {
+  overflow: hidden;
+  background-color: #0d0d0dab;
 }
 
 /*body, h1, h2, h3, p {
