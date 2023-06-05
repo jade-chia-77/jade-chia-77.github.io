@@ -1,5 +1,7 @@
 body {
-  background-color: rgb(35, 36, 42);
+  background-image: url("/Users/jadechia/Downloads/Galaxy.jpg");
+  background-size: cover; /* optional: adjusts the image size to cover the entire background */
+  background-repeat: no-repeat; /* optional: prevents the image from repeating */
 }
 
 h1, h2, h3, h4 {
@@ -26,6 +28,27 @@ p, ul {
   color: rgb(254, 254, 255);
   font-family: Montserrat, Arial, Helvetica, sans-serif;
   text-align: justify;
+  font-weight:bolder;
+}
+
+hr {
+  color:ivory;
+  width: auto;
+}
+
+.table {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); /* Adjust the grid columns as needed */
+  padding: 4%;
+  align-self: center;
+  margin-left: 10%;
+  margin-right: 10%; /* Combine margin-left and margin-right */
+}
+
+.centered-image {
+  display: flex;
+  justify-content: center;
+  align-items: auto;
 }
 
 /*body, h1, h2, h3, p {
