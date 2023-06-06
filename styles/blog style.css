@@ -1,5 +1,5 @@
 body {
-  background-image: linear-gradient(rgba(45, 39, 39, 0.941), black);
+  background-image: linear-gradient(rgba(61, 97, 17, 0.739), rgba(255, 123, 0, 0.781));
   background-size: cover;
   display: flex;
   justify-content: center;
@@ -57,7 +57,7 @@ body {
   .footer-input {
   display: inline-block;
   color: rgb(255, 255, 255);
-  text-align: center;
+  text-align: left;
   padding: 12px;
   text-decoration: none;
   font-size: 18px;
@@ -69,5 +69,46 @@ body {
   
   footer {
   overflow: hidden;
-  background-color: #0d0d0dab;
+  border-radius: 15px;
+  background: #652265;
+  padding: 20px;
+  margin: 0;
+  width:100%;
+  }
+
+  .header {
+    overflow: hidden;
+    padding: 10px;
+    text-align: center; /* Align the text center within the header */
+  }
+  
+  .header a {
+    display: inline-block; /* Display the links inline */
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 25px;
+    border-radius: 4px;
+    margin: 0 auto; /* Center the links horizontally */
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  a {
+    color: rgb(255, 255, 255);
+    display: inline-block;
+    text-align: center;
+  }
+
+  a:visited {
+    color: rgb(255, 255, 255);
+  }
+
+  a:hover {
+    color: rgb(234, 245, 24);
+  }
+
+  a:active {
+    color: rgb(255, 255, 255);
   }
