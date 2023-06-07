@@ -17,23 +17,65 @@
             }
         </style>
         <body>
-          <div class = "header">
-            <div class = "header-content">
-              <button class="button button1">
-                <a href="https://jade-chia-77.github.io/index.html">Home</a>
-              </button>
-              <button class="button button1">
-                <a href="https://jade-chia-77.github.io/blog/Javascript-DOM.html">JS 101</a>
-              </button>
-              <button class="button button1">
-                <a href="https://jade-chia-77.github.io/blog/Technical.html">HTML and CSS</a>
-              </button>
-              <button class="button button1">
-                <a href="https://jade-chia-77.github.io/blog/identity-values.html">Core Values</a>
-              </button>
-              <button class="button button1">
-                <a href="https://jade-chia-77.github.io/blog/learning-plan.html">Learning Plan</a>
-              </button>
-            </div>
+          <div id="mySidebar" class="sidebar">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+            <a href="https://jade-chia-77.github.io/index.html">– Home</a>
+            <a href="https://jade-chia-77.github.io/blog/Javascript-DOM.html">– JS 101</a>
+            <a href="https://jade-chia-77.github.io/blog/Technical.html">– HTML and CSS</a>
+            <a href="https://jade-chia-77.github.io/blog/identity-values.html">– Core Values</a>
+            <a href="https://jade-chia-77.github.io/blog/learning-plan.html">– Learning Plan</a>
           </div>
+          
+          <div class = "header">
+            <div id="main">
+              <button class="openbtn" onclick="openNav()">☰ Navigate</button>  
+            </div>
             <h1>Emotional Intelligence</h1>
+          </div>
+          
+          <script>
+          function openNav() {
+            document.getElementById("mySidebar").style.width = "250px";
+            document.getElementById("main").style.marginLeft = "250px";
+          }
+          
+          function closeNav() {
+            document.getElementById("mySidebar").style.width = "0";
+            document.getElementById("main").style.marginLeft= "0";
+          }
+          </script>
+
+          <div class = "box">
+            <h2>What is EQ?</h2>
+            <p>Emotional intelligence (EQ) refers to the capacity to recognise, control, and utilise emotions effectively to reduce stress, communicate well, empathise with others, handle difficulties, and resolve conflicts.
+              EQ aids in establishing better relationships, attaining success in academics and careers, and accomplishing personal and professional objectives. It also enables individuals to connect with their emotions, translate intentions into actions, and make informed decisions aligned with their priorities.<br><br>
+            Academics argue there are five key attributes that constitute EQ:<br>
+              <ul>
+                Self-Awareness<br>
+                Self-Regulation<br>
+                Motivation<br>
+                Empathy<br>
+                Social Skills<br>
+              </ul>
+            </p>
+            <hr>
+          </div>
+
+          <div class = "box">
+            <h2>The Importance of EQ</h2>
+            <p>
+              Emotional intelligence fosters and builds stronger relationships, academic and professional success, and the fulfillment of personal and career aspirations. It facilitates emotional connection, intention-driven action, and informed decision-making for personal objectives.<br><br>
+              In summary, it makes you a more relatable person, one who creates and fosters a safe space for others to be vulnerable and helps you achieve goals through building a strong support network around you. You need it to survive.
+            </p>
+            <hr>
+          </div>
+
+          <div class="box">
+            <h2>How to Increase Your EQ</h2>
+            <p>
+              By exercising mindfulness and being completely present, and engaged in conversation. Opening ourselves to experiencing new challenges and things that push us out of our comfort zone.
+            </p>
+          </div>
+          <div class="footer">
+            <p>Jade Chia 2023</p>
+          </div>
