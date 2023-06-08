@@ -3,6 +3,8 @@ body {
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  background-image: url("https://images.unsplash.com/photo-1559827260-dc66d52bef19?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxleHBsb3JlLWZlZWR8MXx8fGVufDB8fHx8fA%3D%3D&w=1000&q=80");
+  background-size: cover;
   }
   
   h1, h2, h3, h4 {
@@ -27,7 +29,7 @@ body {
   
   p, ul {
   color: rgb(254, 254, 255);
-  font-family: Montserrate, Arial, Helvetica, sans-serif;
+  font-family: Montserrat, Arial, Helvetica, sans-serif;
   text-align: center;
   font-weight: 500px;
   }
@@ -42,7 +44,8 @@ body {
     border-radius: 15px;
     background: #827e7ccb;
     width: 100%;
-    text-align: left;
+   justify-content: space-between;
+    display: flex;
   }
 
   .header-content {
