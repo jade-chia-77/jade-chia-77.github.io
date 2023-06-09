@@ -1,10 +1,11 @@
 body {
-  background-color: rgb(35, 36, 42);
+  background-image: url("../blog/Images/Galaxy.jpg");
+  background-size: cover;
 }
 
 h1, h2, h3, h4 {
   color: rgb(253, 253, 253);
-  font-family: Montserrat, Arial, Helvetica, sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
   text-align: center;
 }
 
@@ -25,15 +26,16 @@ h4 {
 p, ul {
   color: rgb(254, 254, 255);
   font-family: Montserrat, Arial, Helvetica, sans-serif;
+  font-size: medium;
   text-align: justify;
 }
 
 .image {
   display: block;
   margin: 0 auto;
-  max-width: 100%; /* Adjust the maximum width as needed */
+  max-width: 80%; /* Adjust the maximum width as needed */
   height: auto;
-  border-radius: 20%;
+  border-radius: 5%;
   border: 5px solid white; /* Fix the border syntax */
 }
 
@@ -45,7 +47,6 @@ p, ul {
 
 .header {
   overflow: hidden;
-  background-color: #4b4c52fa;
   padding: 10px;
   text-align: center; /* Align the text center within the header */
 }
@@ -76,14 +77,10 @@ p, ul {
 .table {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); /* Adjust the grid columns as needed */
-  background-color: rgb(35, 36, 42);
+  background-color: rgba(56, 56, 58, 0.216);
   padding: 4%;
   align-self: center;
   margin: 0 5%; /* Combine margin-left and margin-right */
-}
-
-ul {
-  font-size: 0.8rem; /* Adjust the font size as needed */
 }
 
 a {
