@@ -76,11 +76,11 @@ body {
     display: inline-block;
     text-align: left;
     font-family: Montserrat, Arial, Helvetica, sans-serif;
-    font-size: smaller;
+    font-size: large;
   }
 
   a:visited {
-    color: rgb(104, 11, 118);
+    color: rgb(255, 255, 255);
   }
 
   a:hover {
