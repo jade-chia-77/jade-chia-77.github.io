@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../styles/blog style.css" type="text/css"/>
+    <title>Te Whare Tapa Whā</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap" rel="stylesheet"/>
+        </head>
+        <body>
+          
+          <div id="mySidebar" class="sidebar">
+            <p>
+              <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+              <a href="https://jade-chia-77.github.io/index.html">– Home</a>
+              <a href="https://jade-chia-77.github.io/blog/Javascript-DOM.html">– JS 101</a>
+              <a href="https://jade-chia-77.github.io/blog/Technical.html">– HTML and CSS</a>
+              <a href="https://jade-chia-77.github.io/blog/identity-values.html">– Core Values</a>
+              <a href="https://jade-chia-77.github.io/blog/learning-plan.html">– Learning Plan</a>
+              <a href="https://jade-chia-77.github.io/blog/Neuroplasticity">– Neuroplasticity</a>
+            </p>
+          </div>
+          
+          <div class = "header">
+            <div id="main">
+              <button class="openbtn" onclick="openNav()">☰ Navigate</button>  
+            </div>
+            <h1>Te Whare Tapa Whā</h1>
+            <p> </p>
+            <p> </p>
+          </div>
+          
+          <script>
+          function openNav() {
+            document.getElementById("mySidebar").style.width = "250px";
+            document.getElementById("main").style.marginLeft = "250px";
+          }
+          
+          function closeNav() {
+            document.getElementById("mySidebar").style.width = "0";
+            document.getElementById("main").style.marginLeft= "0";
+          }
+          </script>
+
+            <div class="box">
+              <p>Using Te Whare Tapa Whā to create my wellbeing plan. Te Whare Tapa Whā is a model of the 4 dimensions of wellbeing developed by Tā Mason Durie in 1984 to provide a Māori perspective on health, which extends beyond the physical body.<br><br>
+                <a href="https://www.health.govt.nz/our-work/populations/maori-health/maori-health-models/maori-health-models-te-whare-tapa-wha">Click here</a> more information about the Te Whare Tapa Whā model.
+              </p>
+            </div>
+            <img src="./Images/te-whare.jpg" width="60%" height="60%" alt="My Wellbeing Plan"><br><br>
+        </body>
+
+        <footer>
+          <div class="footer-input">
+            <p>Want More? Check out the links below 💁‍♀️<br>
+              <a href="https://jade-chia-77.github.io/index.html" target="_blank" class="toolbar-nav">Blog</a>
+              <a href="https://github.com/jade-chia-77" target="_blank" class="toolbar-nav">Github</a>
+              <a href="mailto:jadechia94@gmail.com" class="toolbar-nav">Email</a>
+              <a href="https://www.linkedin.com/in/jade-chia-a9a018169/" target="_blank" class="toolbar-nav">LinkedIn</a>
+            </p>
+          </div>
+        </footer>

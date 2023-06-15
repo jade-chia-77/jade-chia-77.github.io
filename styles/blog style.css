@@ -82,7 +82,8 @@ body {
     background: #652265;
     padding: 10px;
     width: 90%;
-    text-align: center; /* Align the text center within the header */
+    justify-content: space-between;
+    display: flex;
   }
   
   .header a {
@@ -116,16 +117,17 @@ body {
     color: rgb(255, 255, 255);
   }
 
-  /*TRIAL BY FIRE, ADDING COLLAPSABLE SIDEBAR*
   
-  .sidebar {
+/*COLLAPSABLE SIDEBAR ATTEMPT*/
+
+.sidebar {
   height: 100%;
-  width: 3%;
+  width: 0;
   position: fixed;
   z-index: 1;
   top: 0;
   left: 0;
-  background-color: #652265;
+  background-color: #111;
   overflow-x: hidden;
   transition: 0.5s;
   padding-top: 60px;
@@ -170,8 +172,13 @@ body {
   padding: 16px;
 }
 
-/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) 
+/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
 @media screen and (max-height: 450px) {
   .sidebar {padding-top: 15px;}
   .sidebar a {font-size: 18px;}
+}
+
+.footer{
+  text-align: left;
+  font-size: smaller;
 }
